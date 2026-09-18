@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Skills — Abdullah Ayman | Front-End Developer</title>
+    <meta
+      name="description"
+      content="Full skill matrix of Abdullah Ayman: front-end engineering, CSS animation, JavaScript, tooling, design and soft skills with proficiency levels."
+    />
+    <meta name="author" content="Abdullah Ayman" />
+    <meta name="theme-color" content="#05060c" />
+    <link rel="canonical" href="/portfolio/skills.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Skills — Abdullah Ayman" />
+    <meta
+      property="og:description"
+      content="Technical and soft skill matrix with animated proficiency indicators."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div id="loader" role="status" aria-live="polite">
+      <div class="loader-inner">
+        <div class="loader-mark"><span>AA</span></div>
+        <div class="loader-bar"><i></i></div>
+        <p class="loader-text">Loading 0%</p>
+      </div>
+    </div>
+
+    <div id="veil" aria-hidden="true"></div>
+    <div class="bg-layer" aria-hidden="true"></div>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <canvas id="particles" aria-hidden="true"></canvas>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" aria-hidden="true"></div>
+    <div id="progress" aria-hidden="true"></div>
+
+    <header class="nav">
+      <div class="wrap">
+        <a class="brand" href="index.html" aria-label="Abdullah Ayman — home">
+          <img src="profile.jpg" alt="Abdullah Ayman" class="brand-badge"
+            style="object-fit: cover; border-radius: 50%; width: 36px; height: 36px;" />
+          <span>Abdullah Ayman<small>FRONT-END DEVELOPER</small></span>
+        </a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="index.html#about">About</a>
+          <a href="skills.html" class="active">Skills</a>
+          <a href="index.html#services">Services</a>
+          <a href="index.html#projects">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-cta">
+          <a class="btn btn-primary btn-sm" href="contact.html" data-magnetic>Hire Me</a>
+          <button
+            class="burger"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <main id="main">
+      <section class="page-head">
+        <div class="wrap">
+          <span class="eyebrow reveal">Skill Matrix</span>
+          <h1 class="reveal" data-delay="80">
+            Everything I bring to a <span class="grad-text">product team</span>
+          </h1>
+          <p class="reveal" data-delay="140">
+            Proficiency levels reflect real, shipped work — not coursework alone. Categories cover
+            engineering, tooling, design and collaboration.
+          </p>
+          <p class="crumbs reveal" data-delay="180"><a href="index.html">Home</a> / Skills</p>
+        </div>
+      </section>
+
+      <svg width="0" height="0" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#5eead4" />
+            <stop offset="55%" stop-color="#6d8bff" />
+            <stop offset="100%" stop-color="#c084fc" />
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <section id="core">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="eyebrow">Core strengths</span>
+            <h2>Where I'm <span class="grad-text">strongest</span></h2>
+            <p>The four pillars behind every project I deliver.</p>
+          </div>
+          <div class="rings-grid">
+            <div class="ring-card glass reveal" data-tilt>
+              <div class="ring-wrap">
+                <svg viewBox="0 0 120 120">
+                  <circle class="ring-bg" cx="60" cy="60" r="54"></circle>
+                  <circle class="ring-fg" cx="60" cy="60" r="54" data-value="95"></circle>
+                </svg>
+                <div class="ring-val">0%</div>
+              </div>
+              <h4>HTML5 &amp; Semantics</h4>
+              <span>Structure, SEO, a11y</span>
+            </div>
+            <div class="ring-card glass reveal" data-delay="80" data-tilt>
+              <div class="ring-wrap">
+                <svg viewBox="0 0 120 120">
+                  <circle class="ring-bg" cx="60" cy="60" r="54"></circle>
+                  <circle class="ring-fg" cx="60" cy="60" r="54" data-value="93"></circle>
+                </svg>
+                <div class="ring-val">0%</div>
+              </div>
+              <h4>CSS3 &amp; Animation</h4>
+              <span>Grid, Flex, keyframes</span>
+            </div>
+            <div class="ring-card glass reveal" data-delay="160" data-tilt>
+              <div class="ring-wrap">
+                <svg viewBox="0 0 120 120">
+                  <circle class="ring-bg" cx="60" cy="60" r="54"></circle>
+                  <circle class="ring-fg" cx="60" cy="60" r="54" data-value="88"></circle>
+                </svg>
+                <div class="ring-val">0%</div>
+              </div>
+              <h4>JavaScript ES6+</h4>
+              <span>DOM, Canvas, APIs</span>
+            </div>
+            <div class="ring-card glass reveal" data-delay="240" data-tilt>
+              <div class="ring-wrap">
+                <svg viewBox="0 0 120 120">
+                  <circle class="ring-bg" cx="60" cy="60" r="54"></circle>
+                  <circle class="ring-fg" cx="60" cy="60" r="54" data-value="86"></circle>
+                </svg>
+                <div class="ring-val">0%</div>
+              </div>
+              <h4>Performance</h4>
+              <span>Core Web Vitals</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="technical">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="eyebrow">Technical</span>
+            <h2>Engineering <span class="grad-text">toolkit</span></h2>
+            <p>Languages, platforms and practices used day to day.</p>
+          </div>
+          <div class="skills-cols">
+            <div class="skills-panel glass reveal left">
+              <h3>Languages &amp; markup</h3>
+              <div class="bar">
+                <div class="bar-top"><span>HTML5</span><span>95%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="95"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>CSS3 / SASS</span><span>93%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="93"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>JavaScript (ES6+)</span><span>88%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="88"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>Python</span><span>76%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="76"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>C++</span><span>72%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="72"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>SQL</span><span>74%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="74"></div></div>
+              </div>
+            </div>
+
+            <div class="skills-panel glass reveal right">
+              <h3>Practices &amp; platform</h3>
+              <div class="bar">
+                <div class="bar-top">
+                  <span>Responsive &amp; fluid layout</span><span>94%</span>
+                </div>
+                <div class="bar-track"><div class="bar-fill" data-value="94"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>Web accessibility (WCAG)</span><span>89%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="89"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top">
+                  <span>Animation &amp; micro-interactions</span><span>91%</span>
+                </div>
+                <div class="bar-track"><div class="bar-fill" data-value="91"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>Git &amp; GitHub workflows</span><span>86%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="86"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>REST API integration</span><span>82%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="82"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>Testing &amp; debugging</span><span>80%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="80"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="design">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="eyebrow">Design</span>
+            <h2>Design &amp; <span class="grad-text">interaction</span></h2>
+            <p>Where visual craft meets implementation detail.</p>
+          </div>
+          <div class="cards-3">
+            <article class="service glass reveal" data-tilt>
+              <div class="icon">◱</div>
+              <h3>Design systems</h3>
+              <p>Token architecture, theming and reusable component contracts.</p>
+              <ul>
+                <li>Colour &amp; type scales</li>
+                <li>Spacing rhythm</li>
+                <li>Documentation</li>
+              </ul>
+            </article>
+            <article class="service glass reveal" data-delay="90" data-tilt>
+              <div class="icon">✧</div>
+              <h3>Motion design</h3>
+              <p>Choreographed reveals, transitions and physical, responsive feedback.</p>
+              <ul>
+                <li>Easing libraries</li>
+                <li>Scroll orchestration</li>
+                <li>Reduced-motion paths</li>
+              </ul>
+            </article>
+            <article class="service glass reveal" data-delay="180" data-tilt>
+              <div class="icon">◔</div>
+              <h3>Prototyping</h3>
+              <p>Fast, clickable prototypes to validate flows before engineering time is spent.</p>
+              <ul>
+                <li>Figma prototypes</li>
+                <li>HTML spike builds</li>
+                <li>Usability sessions</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="soft">
+        <div class="wrap">
+          <div class="section-head reveal">
+            <span class="eyebrow">Soft skills</span>
+            <h2>How I <span class="grad-text">collaborate</span></h2>
+            <p>Technical ability only matters when it lands inside a team.</p>
+          </div>
+          <div class="skills-cols">
+            <div class="skills-panel glass reveal left">
+              <h3>Working style</h3>
+              <div class="bar">
+                <div class="bar-top"><span>Communication</span><span>92%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="92"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>Problem solving</span><span>90%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="90"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>Team collaboration</span><span>89%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="89"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>Time management</span><span>87%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="87"></div></div>
+              </div>
+              <div class="bar">
+                <div class="bar-top"><span>Mentoring &amp; teaching</span><span>84%</span></div>
+                <div class="bar-track"><div class="bar-fill" data-value="84"></div></div>
+              </div>
+            </div>
+            <div class="skills-panel glass reveal right">
+              <h3>Tools I live in</h3>
+              <div class="tags">
+                <span class="tag">VS Code</span><span class="tag">Git</span
+                ><span class="tag">GitHub</span> <span class="tag">Figma</span
+                ><span class="tag">Chrome DevTools</span><span class="tag">Lighthouse</span>
+                <span class="tag">Vite</span><span class="tag">npm</span
+                ><span class="tag">Netlify</span> <span class="tag">Vercel</span
+                ><span class="tag">Postman</span><span class="tag">Notion</span>
+                <span class="tag">Jira</span><span class="tag">Slack</span
+                ><span class="tag">Photoshop</span>
+              </div>
+              <h3 style="margin-top: 28px">Currently learning</h3>
+              <div class="tags">
+                <span class="tag">WebGL fundamentals</span><span class="tag">TypeScript</span>
+                <span class="tag">Node.js</span><span class="tag">Testing Library</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stats-skills" aria-label="Skill statistics">
+        <div class="wrap">
+          <div class="stats-grid">
+            <div class="stat glass reveal">
+              <b><span data-count="15" data-suffix="+">0</span></b
+              ><span>Technologies used</span>
+            </div>
+            <div class="stat glass reveal" data-delay="90">
+              <b><span data-count="1200" data-suffix="+">0</span></b
+              ><span>Hours of practice</span>
+            </div>
+            <div class="stat glass reveal" data-delay="180">
+              <b><span data-count="98" data-suffix="">0</span></b
+              ><span>Avg. Lighthouse score</span>
+            </div>
+            <div class="stat glass reveal" data-delay="270">
+              <b><span data-count="12" data-suffix="">0</span></b
+              ><span>Certifications earned</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cta">
+        <div class="wrap">
+          <div class="cta-band glass reveal zoom">
+            <h2>Need these skills on <span class="grad-text">your team?</span></h2>
+            <p>I'm open to full-time front-end roles and selected freelance work starting 2026.</p>
+            <div class="cta-actions">
+              <a class="btn btn-primary" href="contact.html" data-magnetic>Contact me</a>
+              <a class="btn btn-ghost" href="index.html#projects" data-magnetic>See the work</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <div class="foot-grid">
+          <div>
+            <a class="brand" href="index.html"
+              ><img src="profile.jpg" alt="Abdullah Ayman" class="brand-badge"
+                style="object-fit: cover; border-radius: 50%; width: 36px; height: 36px;"
+              /><span>Abdullah Ayman<small>FRONT-END DEVELOPER</small></span></a
+            >
+            <p>
+              Front-end developer and CS graduate from UMT, building fast, accessible and
+              beautifully animated web experiences from Lahore, Pakistan.
+            </p>
+          </div>
+          <div>
+            <h5>Navigate</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about">About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li><a href="index.html#projects">Projects</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Services</h5>
+            <ul>
+              <li><a href="index.html#services">Front-end development</a></li>
+              <li><a href="index.html#services">Motion design</a></li>
+              <li><a href="index.html#services">UI / UX design</a></li>
+              <li><a href="index.html#services">Performance audits</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Contact</h5>
+            <ul>
+              <li><a href="mailto:abdullahayman4560@gmail.com">abdullahayman4560@gmail.com</a></li>
+              <li><a href="tel:+923074335544">+92 307 4335544</a></li>
+              <li>
+                <a href="https://wa.me/923074335544?text=Hi%20Abdullah%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp: +92 307 4335544</a>
+              </li>
+              <li>
+                <a href="https://github.com/abdullahayman" target="_blank" rel="noopener">GitHub</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/abdullah-ayman-753a682ab?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://x.com/Ayman_k215" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+              </li>
+              <li>
+                <a href="https://x.com/Ayman_k215" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="foot-bottom">
+          <span>© <span data-year>2026</span> Abdullah Ayman. All rights reserved.</span>
+          <span>Handcrafted with HTML, CSS &amp; vanilla JavaScript.</span>
+        </div>
+      </div>
+    </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/923074335544?text=Hi%20Abdullah%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20chat." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+      <div class="whatsapp-icon-wrap">
+        <span class="whatsapp-pulse"></span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+      </div>
+      <div class="whatsapp-label">
+        <strong>Chat on WhatsApp</strong>
+        <span>Online now</span>
+      </div>
+    </a>
+
+    <button id="top" type="button" aria-label="Back to top">↑</button>
+    <script src="script.js" defer></script>
+  </body>
+</html>

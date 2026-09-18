@@ -1,0 +1,1151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abdullah Ayman — Front-End Developer & UI Engineer Portfolio</title>
+  <meta name="description"
+    content="Abdullah Ayman, BS Computer Science graduate (2026) from UMT Lahore. Front-end developer crafting fast, accessible and animated web experiences." />
+  <meta name="author" content="Abdullah Ayman" />
+  <meta name="theme-color" content="#05060c" />
+  <link rel="canonical" href="/portfolio/index.html" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Abdullah Ayman — Front-End Developer & UI Engineer" />
+  <meta property="og:description" content="Premium animated portfolio: projects, services, experience and contact." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Abdullah Ayman",
+        "jobTitle": "Front-End Developer",
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of Management and Technology (UMT)"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Lahore",
+          "addressCountry": "PK"
+        },
+        "email": "abdullahayman4560@gmail.com",
+        "url": "/portfolio/index.html",
+        "sameAs": [
+      "https://github.com/abdullahayman",
+      "https://www.linkedin.com/in/abdullah-ayman-753a682ab"
+    ]  }
+    </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div id="loader" role="status" aria-live="polite">
+    <div class="loader-inner">
+      <div class="loader-mark"><span>AA</span></div>
+      <div class="loader-bar"><i></i></div>
+      <p class="loader-text">Loading 0%</p>
+    </div>
+  </div>
+
+  <div id="veil" aria-hidden="true"></div>
+  <div class="bg-layer" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div id="progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Abdullah Ayman — home">
+        <img src="profile.jpg" alt="Logo" class="brand-badge"
+          style="object-fit: cover; border-radius: 50%; width: 36px; height: 36px;" />
+        <span>Abdullah Ayman<small>FRONT-END DEVELOPER</small></span>
+      </a>
+
+      <nav class="nav-links" aria-label="Section navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn btn-primary btn-sm" href="contact.html" data-magnetic>Hire Me</a>
+        <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow reveal">Available for opportunities · 2026</span>
+          <h1 class="reveal" data-delay="80">
+            Hi, I'm <span class="grad-text">Abdullah Ayman</span>
+          </h1>
+          <p class="role reveal" data-delay="140"
+            data-typer='["Front-End Developer","UI Engineer","Motion & Interaction Designer","BS Computer Science, UMT 2026"]'>
+            Front-End Developer
+          </p>
+          <p class="lead reveal" data-delay="200">
+            I design and build premium web interfaces where performance, accessibility and motion
+            meet. A Computer Science graduate from the University of Management and Technology, I
+            turn complex product ideas into interfaces that feel effortless on every screen.
+          </p>
+          <div class="hero-actions reveal" data-delay="260">
+            <a class="btn btn-primary" href="#projects" data-magnetic>View My Work</a>
+            <a class="btn btn-ghost" href="contact.html" data-magnetic>Let's Talk</a>
+            <a class="btn btn-ghost" href="Abdullah-Ayman-Resume.txt" download data-magnetic>Download Résumé</a>
+          </div>
+          <div class="socials reveal" data-delay="320">
+            <a href="https://github.com/abdullahayman" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.9 3.2 9.1 7.6 10.6.6.1.8-.2.8-.6v-2c-3.1.7-3.8-1.3-3.8-1.3-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 1.7 2.7 1.2 3.4.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-3 0 0 .9-.3 3 1.1a10.4 10.4 0 0 1 5.5 0c2.1-1.4 3-1.1 3-1.1.6 1.6.2 2.7.1 3 .7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.2-5.1 5.5.4.4.8 1.1.8 2.2v3.2c0 .4.2.7.8.6 4.4-1.5 7.6-5.7 7.6-10.6C23.1 5.3 18.3.5 12 .5z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/abdullah-ayman-753a682ab" target="_blank" rel="noopener"
+              aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.7-2 4 0 4.7 2.5 4.7 5.8V21h-4v-5.7c0-1.4 0-3.1-1.9-3.1s-2.2 1.5-2.2 3V21H9z" />
+              </svg>
+            </a>
+            <a href="mailto:abdullahayman4560@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5zm2.4.5 7.6 5.6L19.6 6z" />
+              </svg>
+            </a>
+            <a href="https://x.com/Ayman_k215" target="_blank" rel="noopener noreferrer"
+              aria-label="X (formerly Twitter)">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M17.5 3h3.3l-7.2 8.2L22 21h-6.6l-5.2-6.5L4.2 21H.9l7.7-8.8L2 3h6.8l4.7 6zm-1.2 16h1.8L7.8 4.9H5.9z" />
+              </svg>
+            </a>
+          </div>
+          <div class="scroll-hint reveal" data-delay="380"><i></i> Scroll to explore</div>
+        </div>
+
+        <div class="hero-visual reveal zoom" data-delay="160">
+          <div class="orb-stage">
+            <div class="ring" aria-hidden="true"></div>
+            <div class="ring r2" aria-hidden="true"></div>
+            <div class="ring r3" aria-hidden="true"></div>
+            <div class="orb-core" aria-hidden="true"></div>
+            <!-- <div class="orb-initials" aria-hidden="true">AA</div> -->
+            <img src="profile.jpg" alt="Abdullah Ayman" class="hero-avatar" />
+            <div class="chip-float c1">&lt;/&gt; clean&nbsp;code</div>
+            <div class="chip-float c2">60fps&nbsp;motion</div>
+            <div class="chip-float c3">a11y&nbsp;first</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats" aria-label="Key statistics">
+      <div class="wrap">
+        <div class="stats-grid">
+          <div class="stat glass reveal">
+            <b><span data-count="35" data-suffix="+">0</span></b><span>Projects Delivered</span>
+          </div>
+          <div class="stat glass reveal" data-delay="90">
+            <b><span data-count="3" data-suffix="+">0</span></b><span>Years Building</span>
+          </div>
+          <div class="stat glass reveal" data-delay="180">
+            <b><span data-count="18" data-suffix="">0</span></b><span>Happy Clients</span>
+          </div>
+          <div class="stat glass reveal" data-delay="270">
+            <b><span data-count="12" data-suffix="">0</span></b><span>Certifications</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">About Me</span>
+          <h2>Engineering interfaces with <span class="grad-text">intent</span></h2>
+          <p>
+            Curious by nature, precise by habit — I care about the small details that make
+            products feel expensive.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card glass reveal left">
+            <h3>Personal introduction</h3>
+            <p>
+              I'm Abdullah Ayman, a Computer Science graduate from the University of Management
+              and Technology (UMT), Lahore. I started with plain HTML pages in my first semester
+              and never stopped — today I build motion-rich, production ready front-ends with
+              vanilla web fundamentals at the core.
+            </p>
+            <ul class="about-list">
+              <li>
+                Interface engineering with a strong grasp of CSS architecture and animation.
+              </li>
+              <li>Accessibility and semantics treated as requirements, not extras.</li>
+              <li>Performance budgets respected: lean payloads, no unnecessary dependencies.</li>
+              <li>Comfortable across design handoff, implementation and iteration.</li>
+            </ul>
+          </article>
+
+          <article class="about-card glass reveal right">
+            <h3>Profile at a glance</h3>
+            <div class="info-rows">
+              <div><span>Full name</span><span>Abdullah Ayman</span></div>
+              <div><span>Degree</span><span>BS Computer Science, 2026</span></div>
+              <div><span>University</span><span>UMT, Lahore</span></div>
+              <div><span>Location</span><span>Johar Town, Lahore, Pakistan</span></div>
+              <div><span>Email</span><span>abdullahayman4560@gmail.com</span></div>
+              <div><span>Availability</span><span>Full-time &amp; freelance</span></div>
+              <div><span>Languages</span><span>English, Urdu</span></div>
+            </div>
+            <p style="margin-top: 20px">
+              <strong>Career goal:</strong> to join a product-focused team where design and
+              engineering sit at the same table, and to grow into a front-end architect who owns
+              design systems end to end.
+            </p>
+          </article>
+        </div>
+
+        <div class="about-grid" style="margin-top: 26px">
+          <article class="about-card glass reveal left">
+            <h3>Achievements</h3>
+            <ul class="about-list">
+              <li>Dean's List recognition for academic performance at UMT.</li>
+              <li>Winner — UMT intra-university web design competition.</li>
+              <li>Led the Web Development wing of the UMT Computing Society.</li>
+              <li>Open-source contributor: UI utilities and CSS animation snippets.</li>
+              <li>Final year project shortlisted for the departmental showcase.</li>
+            </ul>
+          </article>
+
+          <article class="about-card glass reveal right">
+            <h3>How I work</h3>
+            <p>
+              Every engagement starts with the problem, not the pixels. I map user journeys, agree
+              on measurable outcomes, then build in small, reviewable increments so you always see
+              progress. Handover includes documented components, a clean repository history and a
+              short walkthrough.
+            </p>
+            <ul class="about-list">
+              <li>Transparent communication with weekly checkpoints.</li>
+              <li>Lighthouse targets agreed before the first commit.</li>
+              <li>Cross-browser and device QA before every release.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS PREVIEW -->
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Skills</span>
+          <h2>Technical depth, <span class="grad-text">measured</span></h2>
+          <p>
+            A snapshot of core proficiencies. The full breakdown lives on the dedicated skills
+            page.
+          </p>
+        </div>
+
+        <svg width="0" height="0" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#5eead4" />
+              <stop offset="55%" stop-color="#6d8bff" />
+              <stop offset="100%" stop-color="#c084fc" />
+            </linearGradient>
+          </defs>
+        </svg>
+
+        <div class="rings-grid">
+          <div class="ring-card glass reveal" data-tilt>
+            <div class="ring-wrap">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-bg" cx="60" cy="60" r="54"></circle>
+                <circle class="ring-fg" cx="60" cy="60" r="54" data-value="95"></circle>
+              </svg>
+              <div class="ring-val">0%</div>
+            </div>
+            <h4>HTML &amp; Semantics</h4>
+            <span>Accessible markup</span>
+          </div>
+          <div class="ring-card glass reveal" data-delay="80" data-tilt>
+            <div class="ring-wrap">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-bg" cx="60" cy="60" r="54"></circle>
+                <circle class="ring-fg" cx="60" cy="60" r="54" data-value="93"></circle>
+              </svg>
+              <div class="ring-val">0%</div>
+            </div>
+            <h4>CSS &amp; Animation</h4>
+            <span>Layout, motion, theming</span>
+          </div>
+          <div class="ring-card glass reveal" data-delay="160" data-tilt>
+            <div class="ring-wrap">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-bg" cx="60" cy="60" r="54"></circle>
+                <circle class="ring-fg" cx="60" cy="60" r="54" data-value="88"></circle>
+              </svg>
+              <div class="ring-val">0%</div>
+            </div>
+            <h4>JavaScript</h4>
+            <span>ES6+, DOM, Canvas</span>
+          </div>
+          <div class="ring-card glass reveal" data-delay="240" data-tilt>
+            <div class="ring-wrap">
+              <svg viewBox="0 0 120 120">
+                <circle class="ring-bg" cx="60" cy="60" r="54"></circle>
+                <circle class="ring-fg" cx="60" cy="60" r="54" data-value="85"></circle>
+              </svg>
+              <div class="ring-val">0%</div>
+            </div>
+            <h4>UI / UX Design</h4>
+            <span>Systems &amp; prototypes</span>
+          </div>
+        </div>
+
+        <div class="skills-cols">
+          <div class="skills-panel glass reveal left">
+            <h3>Technical skills</h3>
+            <div class="bar">
+              <div class="bar-top"><span>Responsive Design</span><span>94%</span></div>
+              <div class="bar-track">
+                <div class="bar-fill" data-value="94"></div>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="bar-top"><span>Vanilla JavaScript</span><span>88%</span></div>
+              <div class="bar-track">
+                <div class="bar-fill" data-value="88"></div>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="bar-top"><span>Performance Optimisation</span><span>84%</span></div>
+              <div class="bar-track">
+                <div class="bar-fill" data-value="84"></div>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="bar-top"><span>Git &amp; Version Control</span><span>86%</span></div>
+              <div class="bar-track">
+                <div class="bar-fill" data-value="86"></div>
+              </div>
+            </div>
+            <div class="tags">
+              <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span> <span
+                class="tag">Canvas API</span><span class="tag">SASS</span><span class="tag">Figma</span>
+              <span class="tag">Python</span><span class="tag">C++</span><span class="tag">SQL</span>
+            </div>
+          </div>
+
+          <div class="skills-panel glass reveal right">
+            <h3>Soft skills</h3>
+            <div class="bar">
+              <div class="bar-top"><span>Communication</span><span>92%</span></div>
+              <div class="bar-track">
+                <div class="bar-fill" data-value="92"></div>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="bar-top"><span>Problem Solving</span><span>90%</span></div>
+              <div class="bar-track">
+                <div class="bar-fill" data-value="90"></div>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="bar-top"><span>Team Collaboration</span><span>89%</span></div>
+              <div class="bar-track">
+                <div class="bar-fill" data-value="89"></div>
+              </div>
+            </div>
+            <div class="bar">
+              <div class="bar-top"><span>Time Management</span><span>87%</span></div>
+              <div class="bar-track">
+                <div class="bar-fill" data-value="87"></div>
+              </div>
+            </div>
+            <div class="tags">
+              <span class="tag">Ownership</span><span class="tag">Mentoring</span><span class="tag">Critical
+                thinking</span> <span class="tag">Adaptability</span><span class="tag">Attention to detail</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 36px" class="reveal">
+          <a class="btn btn-ghost" href="skills.html" data-magnetic>See the full skill matrix →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Services</span>
+          <h2>What I can <span class="grad-text">build for you</span></h2>
+          <p>Focused offerings, delivered end to end with clear scope and timelines.</p>
+        </div>
+        <div class="cards-3">
+          <article class="service glass reveal" data-tilt>
+            <div class="icon">◈</div>
+            <h3>Front-End Development</h3>
+            <p>Pixel-accurate, responsive interfaces built on clean semantic foundations.</p>
+            <ul>
+              <li>Marketing sites &amp; landing pages</li>
+              <li>Component libraries</li>
+              <li>Design-to-code handoff</li>
+            </ul>
+          </article>
+          <article class="service glass reveal" data-delay="90" data-tilt>
+            <div class="icon">✦</div>
+            <h3>Motion &amp; Micro-interactions</h3>
+            <p>Animation systems that guide attention without hurting performance.</p>
+            <ul>
+              <li>Scroll and reveal choreography</li>
+              <li>Canvas &amp; CSS effects</li>
+              <li>Reduced-motion fallbacks</li>
+            </ul>
+          </article>
+          <article class="service glass reveal" data-delay="180" data-tilt>
+            <div class="icon">◐</div>
+            <h3>UI / UX Design</h3>
+            <p>From wireframe to polished design system with real, usable tokens.</p>
+            <ul>
+              <li>Wireframes &amp; prototypes</li>
+              <li>Design tokens &amp; theming</li>
+              <li>Usability review</li>
+            </ul>
+          </article>
+          <article class="service glass reveal" data-tilt>
+            <div class="icon">⚡</div>
+            <h3>Performance Audits</h3>
+            <p>Find and remove what makes your site slow, then prove the improvement.</p>
+            <ul>
+              <li>Core Web Vitals</li>
+              <li>Asset &amp; font strategy</li>
+              <li>Render-path fixes</li>
+            </ul>
+          </article>
+          <article class="service glass reveal" data-delay="90" data-tilt>
+            <div class="icon">♿</div>
+            <h3>Accessibility Engineering</h3>
+            <p>WCAG-aligned improvements so every visitor can use the product.</p>
+            <ul>
+              <li>Keyboard &amp; screen-reader passes</li>
+              <li>Contrast &amp; focus systems</li>
+              <li>Remediation reports</li>
+            </ul>
+          </article>
+          <article class="service glass reveal" data-delay="180" data-tilt>
+            <div class="icon">◎</div>
+            <h3>Maintenance &amp; Support</h3>
+            <p>Ongoing care so your site keeps shipping after launch day.</p>
+            <ul>
+              <li>Content &amp; feature updates</li>
+              <li>Bug triage</li>
+              <li>Monthly health reports</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Portfolio</span>
+          <h2>Selected <span class="grad-text">projects</span></h2>
+          <p>Filter by discipline. Every build ships responsive, accessible and fast.</p>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter active" type="button" data-filter="all" aria-pressed="true">
+            All
+          </button>
+          <button class="filter" type="button" data-filter="web" aria-pressed="false">
+            Web Apps
+          </button>
+          <button class="filter" type="button" data-filter="ui" aria-pressed="false">
+            UI Design
+          </button>
+          <button class="filter" type="button" data-filter="animation" aria-pressed="false">
+            Animation
+          </button>
+          <button class="filter" type="button" data-filter="opensource" aria-pressed="false">
+            Open Source
+          </button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project glass reveal" data-category="web ui">
+            <div class="project-thumb">
+              <img src="project-nebula-crm.jpg" alt="Nebula CRM Dashboard Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a class="btn btn-primary btn-sm" href="#projects">Live Demo</a><a class="btn btn-ghost btn-sm"
+                  href="https://github.com/abdullahayman" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Nebula CRM Dashboard</h3>
+              <p>
+                Analytics dashboard with virtualised tables, dark theming and keyboard-first
+                navigation.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS Grid</span><span>JS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project glass reveal" data-category="animation web" data-delay="80">
+            <div class="project-thumb">
+              <img src="project-aurora-landing.jpg" alt="Aurora Product Launch Preview" class="project-img"
+                loading="lazy" />
+              <div class="project-overlay">
+                <a class="btn btn-primary btn-sm" href="#projects">Live Demo</a><a class="btn btn-ghost btn-sm"
+                  href="https://github.com/abdullahayman" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Aurora Product Launch</h3>
+              <p>
+                Scroll-driven launch page with canvas particles and choreographed reveals at
+                60fps.
+              </p>
+              <div class="project-tags">
+                <span>Canvas</span><span>CSS Anim</span><span>IO API</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project glass reveal" data-category="ui" data-delay="160">
+            <div class="project-thumb">
+              <img src="project-lumen-design.jpg" alt="Lumen Design System Preview" class="project-img"
+                loading="lazy" />
+              <div class="project-overlay">
+                <a class="btn btn-primary btn-sm" href="#projects">Live Demo</a><a class="btn btn-ghost btn-sm"
+                  href="https://github.com/abdullahayman" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Lumen Design System</h3>
+              <p>
+                Token-driven component kit with theming, documentation and contrast-safe palettes.
+              </p>
+              <div class="project-tags">
+                <span>Design Tokens</span><span>Figma</span><span>CSS Vars</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project glass reveal" data-category="web opensource">
+            <div class="project-thumb">
+              <img src="project-trackr-habits.jpg" alt="Trackr Habit App Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a class="btn btn-primary btn-sm" href="#projects">Live Demo</a><a class="btn btn-ghost btn-sm"
+                  href="https://github.com/abdullahayman" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Trackr Habit App</h3>
+              <p>
+                Offline-first habit tracker using localStorage, streak logic and animated progress
+                rings.
+              </p>
+              <div class="project-tags">
+                <span>Vanilla JS</span><span>SVG</span><span>PWA</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project glass reveal" data-category="animation opensource" data-delay="80">
+            <div class="project-thumb">
+              <img src="project-motionkit-css.jpg" alt="MotionKit CSS Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a class="btn btn-primary btn-sm" href="#projects">Live Demo</a><a class="btn btn-ghost btn-sm"
+                  href="https://github.com/abdullahayman" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>MotionKit CSS</h3>
+              <p>
+                Dependency-free animation utility library with reduced-motion support built in.
+              </p>
+              <div class="project-tags">
+                <span>CSS</span><span>Open Source</span><span>a11y</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project glass reveal" data-category="web ui" data-delay="160">
+            <div class="project-thumb">
+              <img src="project-campus-portal.jpg" alt="UMT Campus Portal Preview" class="project-img" loading="lazy" />
+              <div class="project-overlay">
+                <a class="btn btn-primary btn-sm" href="#projects">Live Demo</a><a class="btn btn-ghost btn-sm"
+                  href="https://github.com/abdullahayman" target="_blank" rel="noopener">GitHub</a>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>UMT Campus Portal (FYP)</h3>
+              <p>
+                Final year project: course planning, results and event feeds in one responsive
+                portal.
+              </p>
+              <div class="project-tags"><span>JS</span><span>REST</span><span>SQL</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE + EDUCATION -->
+    <section id="experience">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Journey</span>
+          <h2>Experience &amp; <span class="grad-text">education</span></h2>
+          <p>Where I've studied, shipped and learned the craft.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card glass reveal left">
+            <h3>Experience</h3>
+            <div class="timeline">
+              <div class="tl-item">
+                <span class="tl-date">2025 — Present</span>
+                <h4>Freelance Front-End Developer</h4>
+                <span class="org">Remote · Clients across PK &amp; UAE</span>
+                <p>
+                  Building marketing sites, dashboards and animation systems with measurable
+                  performance targets.
+                </p>
+              </div>
+              <div class="tl-item">
+                <span class="tl-date">2024 — 2025</span>
+                <h4>Front-End Developer Intern</h4>
+                <span class="org">Software house, Lahore</span>
+                <p>
+                  Shipped reusable components, cut CSS bundle size by 38% and introduced design
+                  tokens.
+                </p>
+              </div>
+              <div class="tl-item">
+                <span class="tl-date">2023 — 2024</span>
+                <h4>Web Development Lead</h4>
+                <span class="org">UMT Computing Society</span>
+                <p>
+                  Ran workshops for 200+ students and maintained the society's event platform.
+                </p>
+              </div>
+              <div class="tl-item">
+                <span class="tl-date">2022 — 2023</span>
+                <h4>Open Source Contributor</h4>
+                <span class="org">GitHub</span>
+                <p>Contributed accessibility fixes and CSS utilities to community UI projects.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card glass reveal right">
+            <h3>Education</h3>
+            <div class="timeline">
+              <div class="tl-item">
+                <span class="tl-date">2022 — 2026</span>
+                <h4>BS Computer Science</h4>
+                <span class="org">University of Management and Technology (UMT), Lahore</span>
+                <p>
+                  Specialisation in web engineering and human-computer interaction. Final year
+                  project: UMT Campus Portal.
+                </p>
+              </div>
+              <div class="tl-item">
+                <span class="tl-date">2020 — 2022</span>
+                <h4>Intermediate, Pre-Engineering</h4>
+                <span class="org">Punjab Group of Colleges</span>
+                <p>Mathematics and computer science focus; first exposure to programming.</p>
+              </div>
+              <div class="tl-item">
+                <span class="tl-date">2018 — 2020</span>
+                <h4>Matriculation, Science</h4>
+                <span class="org">Lahore</span>
+                <p>
+                  Built the first personal website during this period — the start of everything.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section id="certificates">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Certificates</span>
+          <h2>Continuous <span class="grad-text">learning</span></h2>
+          <p>Formal credentials backing up the practical work.</p>
+        </div>
+        <div class="cards-3">
+          <article class="cert glass reveal">
+            <div class="seal">FC</div>
+            <div>
+              <h4>Responsive Web Design</h4>
+              <span>freeCodeCamp · 2023</span>
+              <p>300 hours of layout, accessibility and responsive fundamentals.</p>
+            </div>
+          </article>
+          <article class="cert glass reveal" data-delay="80">
+            <div class="seal">JS</div>
+            <div>
+              <h4>JavaScript Algorithms &amp; DS</h4>
+              <span>freeCodeCamp · 2024</span>
+              <p>Data structures, functional programming and algorithmic problem solving.</p>
+            </div>
+          </article>
+          <article class="cert glass reveal" data-delay="160">
+            <div class="seal">UX</div>
+            <div>
+              <h4>Google UX Design Foundations</h4>
+              <span>Coursera · 2024</span>
+              <p>Research, wireframing and usability testing methodology.</p>
+            </div>
+          </article>
+          <article class="cert glass reveal">
+            <div class="seal">MT</div>
+            <div>
+              <h4>Meta Front-End Developer</h4>
+              <span>Coursera · 2025</span>
+              <p>Core modules on modern front-end tooling and version control.</p>
+            </div>
+          </article>
+          <article class="cert glass reveal" data-delay="80">
+            <div class="seal">A11</div>
+            <div>
+              <h4>Web Accessibility</h4>
+              <span>W3Cx · 2025</span>
+              <p>WCAG 2.2 conformance, ARIA patterns and assistive technology testing.</p>
+            </div>
+          </article>
+          <article class="cert glass reveal" data-delay="160">
+            <div class="seal">PF</div>
+            <div>
+              <h4>Web Performance</h4>
+              <span>Google Developers · 2025</span>
+              <p>Core Web Vitals, rendering pipeline and measurement tooling.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Process</span>
+          <h2>A workflow that <span class="grad-text">removes surprises</span></h2>
+          <p>Four repeatable stages from first call to launch.</p>
+        </div>
+        <div class="process-grid">
+          <article class="step glass reveal">
+            <h4>Discover</h4>
+            <p>
+              Goals, audience and constraints mapped into a written brief with success metrics.
+            </p>
+          </article>
+          <article class="step glass reveal" data-delay="90">
+            <h4>Design</h4>
+            <p>
+              Wireframes then high-fidelity screens, built on tokens so implementation stays
+              consistent.
+            </p>
+          </article>
+          <article class="step glass reveal" data-delay="180">
+            <h4>Develop</h4>
+            <p>
+              Semantic, componentised build with weekly previews and performance checks each
+              sprint.
+            </p>
+          </article>
+          <article class="step glass reveal" data-delay="270">
+            <h4>Deliver</h4>
+            <p>
+              Cross-browser QA, accessibility pass, documentation and a live walkthrough at
+              handover.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Testimonials</span>
+          <h2>Words from <span class="grad-text">collaborators</span></h2>
+          <p>People I've built with, in their own words.</p>
+        </div>
+        <div class="carousel glass reveal" data-carousel>
+          <div class="track">
+            <div class="slide">
+              <figure class="quote">
+                <div class="mark">“</div>
+                <blockquote>
+                  Abdullah shipped our landing page a week early and it still scores 98 on
+                  Lighthouse. The animation work made the product feel genuinely premium.
+                </blockquote>
+                <figcaption><b>Hira Malik</b>Product Lead, Northlight Studio</figcaption>
+              </figure>
+            </div>
+            <div class="slide">
+              <figure class="quote">
+                <div class="mark">“</div>
+                <blockquote>
+                  He treats accessibility as part of the definition of done. Our screen-reader
+                  audit came back clean on the first pass — that never happens.
+                </blockquote>
+                <figcaption><b>Daniyal Raza</b>Engineering Manager, Corebyte</figcaption>
+              </figure>
+            </div>
+            <div class="slide">
+              <figure class="quote">
+                <div class="mark">“</div>
+                <blockquote>
+                  Clear communication, tidy commits, thoughtful questions. Working with Abdullah
+                  felt like adding a senior engineer to the team.
+                </blockquote>
+                <figcaption><b>Sana Iqbal</b>Founder, Peppermint Labs</figcaption>
+              </figure>
+            </div>
+            <div class="slide">
+              <figure class="quote">
+                <div class="mark">“</div>
+                <blockquote>
+                  The design system he handed over is still the backbone of our product two
+                  releases later. Documented, consistent and easy to extend.
+                </blockquote>
+                <figcaption><b>Umar Sheikh</b>CTO, Gridwave</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-nav">
+          <button class="arrow prev" type="button" aria-label="Previous testimonial">‹</button>
+          <div class="dots" role="tablist" aria-label="Testimonial navigation"></div>
+          <button class="arrow next" type="button" aria-label="Next testimonial">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Pricing</span>
+          <h2>Simple, <span class="grad-text">transparent</span> packages</h2>
+          <p>Fixed-scope starting points. Custom quotes available for larger products.</p>
+        </div>
+        <div class="cards-3">
+          <article class="price glass reveal">
+            <h3>Starter</h3>
+            <div class="amount">Request a Custom Quote <small>/ project</small></div>
+            <ul>
+              <li>Single-page responsive site</li>
+              <li>Basic animation set</li>
+              <li>SEO essentials</li>
+              <li>2 revision rounds</li>
+              <li>7-day delivery</li>
+            </ul>
+            <a class="btn btn-ghost" href="contact.html" data-magnetic>Get started</a>
+          </article>
+          <article class="price glass featured reveal" data-delay="90">
+            <span class="badge">Popular</span>
+            <h3>Professional</h3>
+            <div class="amount">Request a Custom Quote<small>/ project</small></div>
+            <ul>
+              <li>Up to 6 pages</li>
+              <li>Full motion system</li>
+              <li>Accessibility pass</li>
+              <li>Performance tuning</li>
+              <li>4 revision rounds</li>
+              <li>30-day support</li>
+            </ul>
+            <a class="btn btn-primary" href="contact.html" data-magnetic>Get started</a>
+          </article>
+          <article class="price glass reveal" data-delay="180">
+            <h3>Product</h3>
+            <div class="amount">Custom</div>
+            <ul>
+              <li>Design system build</li>
+              <li>Dashboard / web app UI</li>
+              <li>Component documentation</li>
+              <li>Ongoing collaboration</li>
+              <li>Priority support</li>
+            </ul>
+            <a class="btn btn-ghost" href="contact.html" data-magnetic>Request a quote</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Journal</span>
+          <h2>Notes on <span class="grad-text">the craft</span></h2>
+          <p>Short essays on CSS, motion and building for the web without heavy frameworks.</p>
+        </div>
+        <div class="cards-3">
+          <article class="post glass reveal">
+            <div class="cover"></div>
+            <div class="body">
+              <span class="meta">CSS · 6 min</span>
+              <h3>Building a motion system with pure CSS</h3>
+              <p>
+                Timing tokens, easing curves and a reduced-motion strategy that actually scales.
+              </p>
+            </div>
+          </article>
+          <article class="post glass reveal" data-delay="90">
+            <div class="cover"></div>
+            <div class="body">
+              <span class="meta">Performance · 8 min</span>
+              <h3>Shipping 60fps scroll effects</h3>
+              <p>
+                Why transform and opacity win, and how to profile the frames you are dropping.
+              </p>
+            </div>
+          </article>
+          <article class="post glass reveal" data-delay="180">
+            <div class="cover"></div>
+            <div class="body">
+              <span class="meta">Accessibility · 5 min</span>
+              <h3>Focus states worth designing</h3>
+              <p>
+                Visible, on-brand focus rings that satisfy WCAG without fighting your aesthetic.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">FAQ</span>
+          <h2>Frequently asked <span class="grad-text">questions</span></h2>
+          <p>Everything clients usually ask before we start.</p>
+        </div>
+        <div class="faq">
+          <div class="faq-item glass reveal">
+            <button class="faq-q" type="button" aria-expanded="false">
+              What is your typical project timeline?<i>+</i>
+            </button>
+            <div class="faq-a">
+              <p>
+                A single-page site takes about a week. Multi-page marketing sites run two to three
+                weeks, and product UI work is scoped per sprint. You get a written timeline before
+                any work begins.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item glass reveal">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Do you work with existing designs?<i>+</i>
+            </button>
+            <div class="faq-a">
+              <p>
+                Yes. Send Figma, XD or even sketches — I implement faithfully and flag anything
+                that would hurt accessibility or performance before building it.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item glass reveal">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Which technologies do you use?<i>+</i>
+            </button>
+            <div class="faq-a">
+              <p>
+                Semantic HTML, modern CSS and vanilla JavaScript by default, so the output stays
+                light and portable. I'm equally comfortable inside component frameworks when a
+                project already uses one.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item glass reveal">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Is the work responsive and accessible?<i>+</i>
+            </button>
+            <div class="faq-a">
+              <p>
+                Always. Every build is tested across desktop, tablet and mobile breakpoints,
+                keyboard navigated end to end and checked against WCAG contrast and focus
+                requirements.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item glass reveal">
+            <button class="faq-q" type="button" aria-expanded="false">
+              Do you offer support after launch?<i>+</i>
+            </button>
+            <div class="faq-a">
+              <p>
+                Every package includes a support window, and monthly maintenance retainers are
+                available for content updates, bug fixes and periodic health reports.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item glass reveal">
+            <button class="faq-q" type="button" aria-expanded="false">
+              How do we start?<i>+</i>
+            </button>
+            <div class="faq-a">
+              <p>
+                Send a message through the contact page with a short brief. You'll get a reply
+                within 24 hours with questions, a suggested approach and an estimate.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta">
+      <div class="wrap">
+        <div class="cta-band glass reveal zoom">
+          <h2>Let's build something <span class="grad-text">worth remembering</span></h2>
+          <p>
+            Available for full-time roles and freelance projects starting 2026. Tell me what
+            you're working on.
+          </p>
+          <div class="cta-actions">
+            <a class="btn btn-primary" href="contact.html" data-magnetic>Start a conversation</a>
+            <a class="btn btn-ghost" href="Abdullah-Ayman-Resume.txt" download data-magnetic>Download résumé</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <a class="brand" href="index.html"><img src="profile.jpg" alt="Abdullah Ayman" class="brand-badge"
+              style="object-fit: cover; border-radius: 50%; width: 36px; height: 36px;" /><span>Abdullah
+              Ayman<small>FRONT-END
+                DEVELOPER</small></span></a>
+          <p>
+            Front-end developer and CS graduate from UMT, building fast, accessible and
+            beautifully animated web experiences from Lahore, Pakistan.
+          </p>
+        </div>
+        <div>
+          <h5>Navigate</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Front-end development</a></li>
+            <li><a href="#services">Motion design</a></li>
+            <li><a href="#services">UI / UX design</a></li>
+            <li><a href="#services">Performance audits</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:abdullahayman4560@gmail.com">abdullahayman4560@gmail.com</a></li>
+            <li><a href="tel:+923074335544">+92 307 4335544</a></li>
+            <li>
+              <a href="https://wa.me/923074335544?text=Hi%20Abdullah%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project."
+                target="_blank" rel="noopener noreferrer">WhatsApp: +92 307 4335544</a>
+            </li>
+            <li>
+              <a href="https://github.com/abdullahayman" target="_blank" rel="noopener">GitHub</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/abdullah-ayman-753a682ab" target="_blank" rel="noopener">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://x.com/Ayman_k215" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span data-year>2026</span> Abdullah Ayman. All rights reserved.</span>
+        <span>Handcrafted with HTML, CSS &amp; vanilla JavaScript.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float"
+    href="https://wa.me/923074335544?text=Hi%20Abdullah%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20chat."
+    target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-icon-wrap">
+      <span class="whatsapp-pulse"></span>
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+      </svg>
+    </div>
+    <div class="whatsapp-label">
+      <strong>Chat on WhatsApp</strong>
+      <span>Online now</span>
+    </div>
+  </a>
+
+  <button id="top" type="button" aria-label="Back to top">↑</button>
+  <script src="script.js" defer></script>
+</body>
+
+</html>

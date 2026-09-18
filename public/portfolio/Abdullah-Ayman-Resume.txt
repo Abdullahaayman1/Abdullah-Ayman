@@ -1,0 +1,33 @@
+ABDULLAH AYMAN
+BS Computer Science (2026) — University of Management and Technology (UMT), Lahore
+Email: abdullahayman4560@gmail.com | Phone: +92 3074335544 | Location: Johar Town, Lahore, Pakistan
+
+PROFILE
+Computer Science graduate focused on front-end engineering, motion-rich interfaces and
+performance-first web applications. Builds accessible, production-grade products with
+vanilla web fundamentals and modern tooling.
+
+EDUCATION
+2022 - 2026  BS Computer Science, University of Management and Technology (UMT)
+             Focus: Web Engineering, Human-Computer Interaction, Algorithms
+2020 - 2022  Intermediate in Computer Science (Pre-Engineering)
+
+EXPERIENCE
+2025 - Present  Freelance Front-End Developer — interface engineering for startups
+2024 - 2025     Front-End Developer Intern — component libraries, design systems
+2023 - 2024     Web Development Lead, UMT Computing Society — workshops and events
+
+SKILLS
+HTML5, CSS3, JavaScript (ES6+), Responsive Design, CSS Animation, Canvas API,
+Accessibility (WCAG), Performance Optimisation, Git & GitHub, UI/UX Design,
+Figma, REST APIs, Python, C++, SQL
+
+CERTIFICATES
+- Responsive Web Design (freeCodeCamp)
+- JavaScript Algorithms & Data Structures (freeCodeCamp)
+- Google UX Design Foundations
+- Meta Front-End Developer (core modules)
+
+LINKS
+GitHub: github.com/abdullahayman
+LinkedIn: linkedin.com/in/abdullahayman
