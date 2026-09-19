@@ -29,5 +29,5 @@ CERTIFICATES
 - Meta Front-End Developer (core modules)
 
 LINKS
-GitHub: github.com/abdullahayman
+GitHub: github.com/Abdullahaayman1
 LinkedIn: linkedin.com/in/abdullahayman
