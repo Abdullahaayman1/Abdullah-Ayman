@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { name: "google-site-verification", content: "ZHN8SXQmvwkTNlp_Y9HJub2Ux6_PjXkI41W9JNmt4zI" },
+      { title: "Abdullah Ayman — Front-End Developer Portfolio" },
+      { name: "description", content: "Portfolio of Abdullah Ayman, BS Computer Science graduate (2026) from UMT — front-end engineering, motion design and premium web interfaces." },
+      { name: "author", content: "Abdullah Ayman" },
+      { property: "og:title", content: "Abdullah Ayman — Front-End Developer Portfolio" },
+      { property: "og:description", content: "Portfolio of Abdullah Ayman, BS Computer Science graduate (2026) from UMT — front-end engineering, motion design and premium web interfaces." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {

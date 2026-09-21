@@ -4,6 +4,7 @@ import { useEffect } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
+      { name: "google-site-verification", content: "ZHN8SXQmvwkTNlp_Y9HJub2Ux6_PjXkI41W9JNmt4zI" },
       { title: "Abdullah Ayman — Front-End Developer Portfolio" },
       {
         name: "description",
