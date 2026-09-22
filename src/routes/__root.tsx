@@ -103,13 +103,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "Person",
           name: "Abdullah Ayman",
           url: "https://abdullahayman.online",
-          image: "https://abdullahayman.online",
+          image: "https://abdullahayman.online/profile.jpg",
           jobTitle: "Front-End Developer & UI Engineer",
           alumniOf: {
             "@type": "EducationalOrganization",
             name: "University of Management and Technology (UMT), Lahore",
           },
-          sameAs: ["https://github.com", "https://linkedin.com"],
+          sameAs: [
+            "https://github.com/Abdullahaayman1",
+            "https://www.linkedin.com/in/abdullah-ayman-753a682ab",
+          ],
         }),
       },
     ],
