@@ -91,7 +91,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
+      { rel: "icon", href: "/favicon.png", type: "image/png", sizes: "48x48" },
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Abdullah Ayman",
+          url: "https://abdullahayman.online",
+          image: "https://abdullahayman.online",
+          jobTitle: "Front-End Developer & UI Engineer",
+          alumniOf: {
+            "@type": "EducationalOrganization",
+            name: "University of Management and Technology (UMT), Lahore",
+          },
+          sameAs: ["https://github.com", "https://linkedin.com"],
+        }),
+      },
     ],
   }),
   shellComponent: RootShell,
