@@ -400,7 +400,7 @@ def generate_pdf(output_path, profile_img_path):
 
 if __name__ == "__main__":
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    profile_src = os.path.join(base_dir, "public", "profile.jpg")
+    profile_src = os.path.join(base_dir, "public", "resume_profile.jpg")
     profile_out = os.path.join(base_dir, "public", "profile_pdf.png")
     prepare_profile_image(profile_src, profile_out)
     
