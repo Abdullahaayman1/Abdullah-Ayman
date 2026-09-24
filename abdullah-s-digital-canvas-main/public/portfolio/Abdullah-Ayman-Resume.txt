@@ -1,33 +1,92 @@
+================================================================================
 ABDULLAH AYMAN
-BS Computer Science (2026) — University of Management and Technology (UMT), Lahore
-Email: abdullahayman4560@gmail.com | Phone: +92 3074335544 | Location: Johar Town, Lahore, Pakistan
+Full-Stack Developer
+================================================================================
 
-PROFILE
-Computer Science graduate focused on front-end engineering, motion-rich interfaces and
-performance-first web applications. Builds accessible, production-grade products with
-vanilla web fundamentals and modern tooling.
+CONTACT INFORMATION
+--------------------------------------------------------------------------------
+Email:     abdullahayman4560@gmail.com
+Phone:     +92 3074335544
+Website:   https://abdullahayman.online
+Location:  Lahore, Pakistan
+LinkedIn:  https://www.linkedin.com/in/abdullah-ayman-753a682ab
+GitHub:    https://github.com/Abdullahaayman1
+DOB:       26/08/2003
+
+SUMMARY
+--------------------------------------------------------------------------------
+Computer Science graduate from the University of Management and Technology (UMT)
+with a strong foundation in full-stack web development. Skilled in building
+responsive and user-friendly web applications using modern frontend and backend
+technologies. Familiar with developing RESTful APIs, working with databases,
+implementing authentication, and integrating frontend with backend services.
+Passionate about writing clean, scalable code and continuously learning new
+technologies to solve real-world problems.
 
 EDUCATION
-2022 - 2026  BS Computer Science, University of Management and Technology (UMT)
-             Focus: Web Engineering, Human-Computer Interaction, Algorithms
-2020 - 2022  Intermediate in Computer Science (Pre-Engineering)
+--------------------------------------------------------------------------------
+Bachelor of Science in Computer Science (BSCS)
+University of Management and Technology (UMT), Lahore
+10/2022 – 07/2026
 
-EXPERIENCE
-2025 - Present  Freelance Front-End Developer — interface engineering for startups
-2024 - 2025     Front-End Developer Intern — component libraries, design systems
-2023 - 2024     Web Development Lead, UMT Computing Society — workshops and events
+TECHNICAL SKILLS
+--------------------------------------------------------------------------------
+• Frontend:
+  HTML5, CSS3, JavaScript (ES6+), React.js, Bootstrap, Tailwind CSS,
+  Responsive Web Design
 
-SKILLS
-HTML5, CSS3, JavaScript (ES6+), Responsive Design, CSS Animation, Canvas API,
-Accessibility (WCAG), Performance Optimisation, Git & GitHub, UI/UX Design,
-Figma, REST APIs, Python, C++, SQL
+• Backend:
+  Node.js, Express.js, RESTful APIs, Authentication & Authorization
 
-CERTIFICATES
-- Responsive Web Design (freeCodeCamp)
-- JavaScript Algorithms & Data Structures (freeCodeCamp)
-- Google UX Design Foundations
-- Meta Front-End Developer (core modules)
+• Databases:
+  MongoDB, MySQL, SQL, Database Management
 
-LINKS
-GitHub: github.com/Abdullahaayman1
-LinkedIn: linkedin.com/in/abdullahayman
+• Programming Languages:
+  JavaScript, Java, C++, Python (Pandas, NumPy, Matplotlib, Scikit-learn)
+
+• Tools & Technologies:
+  Git, GitHub, Postman, VS Code, npm, JSON, Socket.io
+
+• Core Concepts & Domains:
+  Computer Networks, Artificial Intelligence (AI), Machine Learning (ML),
+  Microsoft Excel, Google Sheets
+
+PROJECTS
+--------------------------------------------------------------------------------
+1. E-Commerce Web Application
+   Technologies: React.js, Node.js, Express.js, MongoDB
+   • Developed a full-stack e-commerce platform with product browsing, search,
+     filtering, and shopping cart functionality.
+   • Implemented user registration, login, authentication, and role-based access.
+   • Built RESTful APIs for managing users, products, orders, and inventory.
+   • Designed a responsive interface for desktop and mobile devices.
+
+2. Task Management System
+   Technologies: React.js, Node.js, Express.js, MongoDB
+   • Developed a task management application for creating, updating, deleting,
+     and tracking tasks.
+   • Implemented user authentication and personalized task dashboards.
+   • Integrated frontend with REST APIs for real-time data management.
+   • Added task status, priority, deadlines, and filtering functionality.
+
+3. Online Learning Management System
+   Technologies: React.js, Node.js, Express.js, MongoDB
+   • Built a web-based platform where users can browse courses and manage their
+     learning activities.
+   • Developed separate functionality for students and administrators.
+   • Implemented course management, user authentication, and progress tracking.
+   • Created responsive and intuitive UI components using React.js.
+
+4. Real-Time Chat Application
+   Technologies: React.js, Node.js, Express.js, Socket.io, MongoDB
+   • Developed a real-time chat application supporting one-to-one messaging.
+   • Implemented user authentication and online/offline user status.
+   • Used Socket.io for real-time message delivery.
+   • Stored user and chat data in MongoDB and designed a responsive chat interface.
+
+LANGUAGES
+--------------------------------------------------------------------------------
+• English (Fluent)
+• Urdu (Fluent)
+
+================================================================================
