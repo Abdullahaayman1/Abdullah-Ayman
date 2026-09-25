@@ -6,12 +6,11 @@ Full-Stack Developer
 CONTACT INFORMATION
 --------------------------------------------------------------------------------
 Email:     abdullahayman4560@gmail.com
-Phone:     +92 3074335544
+Phone:     +92-3074335544
 Website:   https://abdullahayman.online
 Location:  Lahore, Pakistan
 LinkedIn:  https://www.linkedin.com/in/abdullah-ayman-753a682ab
-GitHub:    https://github.com/Abdullahaayman1
-DOB:       26/08/2003
+DOB:       2003-08-26
 
 SUMMARY
 --------------------------------------------------------------------------------
@@ -25,31 +24,33 @@ technologies to solve real-world problems.
 
 EDUCATION
 --------------------------------------------------------------------------------
-Bachelor of Science in Computer Science (BSCS)
-University of Management and Technology (UMT), Lahore
-10/2022 – 07/2026
+10/2022 – 07/2026 | Lahore
+Bachelor of Science in Computer Science
+University of Management and Technology (UMT)
 
-TECHNICAL SKILLS
+LANGUAGES AND FRAMEWORKS
 --------------------------------------------------------------------------------
-• Frontend:
-  HTML5, CSS3, JavaScript (ES6+), React.js, Bootstrap, Tailwind CSS,
-  Responsive Web Design
+• Web Development:
+  HTML, CSS, React.js, Flask, REST APIs
+
+• Database Management:
+  SQL, MongoDB, PostgreSQL, Firebase, Supabase
+
+• Programming Languages:
+  Python, JavaScript, C++, TypeScript
+
+• Data Analysis & Visualization:
+  Pandas, NumPy, Matplotlib, Scikit-learn
+
+• Machine Learning & Computer Vision:
+  YOLOv8, XGBoost, OpenCV, PyTorch, TensorFlow, Scikit-learn,
+  Model Training and Evaluation
 
 • Backend:
   Node.js, Express.js, RESTful APIs, Authentication & Authorization
 
-• Databases:
-  MongoDB, MySQL, SQL, Database Management
-
-• Programming Languages:
-  JavaScript, Java, C++, Python (Pandas, NumPy, Matplotlib, Scikit-learn)
-
-• Tools & Technologies:
-  Git, GitHub, Postman, VS Code, npm, JSON, Socket.io
-
-• Core Concepts & Domains:
-  Computer Networks, Artificial Intelligence (AI), Machine Learning (ML),
-  Microsoft Excel, Google Sheets
+• Development Tools & Platform:
+  VS Code, Cursor, Google Colab, Jupyter Notebook
 
 PROJECTS
 --------------------------------------------------------------------------------
@@ -57,9 +58,15 @@ PROJECTS
    Technologies: React.js, Node.js, Express.js, MongoDB
    • Developed a full-stack e-commerce platform with product browsing, search,
      filtering, and shopping cart functionality.
-   • Implemented user registration, login, authentication, and role-based access.
+   • Implemented user registration, login, authentication, and role-based
+     access control.
    • Built RESTful APIs for managing users, products, orders, and inventory.
    • Designed a responsive interface for desktop and mobile devices.
+   • Integrated secure API communication between the frontend and backend.
+   • Implemented product and order management features for admin users.
+   • Optimized database queries and API performance for a smooth user experience.
+   • Implemented form validation and error handling to improve application
+     reliability.
 
 2. Task Management System
    Technologies: React.js, Node.js, Express.js, MongoDB
@@ -82,7 +89,14 @@ PROJECTS
    • Developed a real-time chat application supporting one-to-one messaging.
    • Implemented user authentication and online/offline user status.
    • Used Socket.io for real-time message delivery.
-   • Stored user and chat data in MongoDB and designed a responsive chat interface.
+   • Stored user and chat data in MongoDB and designed a responsive chat
+     interface.
+
+CORE COMPETENCIES
+--------------------------------------------------------------------------------
+• Problem Solving           • Team Collaboration
+• Time Management           • Quick Learning
+• Attention to Details      • Independent Working
 
 LANGUAGES
 --------------------------------------------------------------------------------
